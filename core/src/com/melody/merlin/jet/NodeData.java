@@ -103,9 +103,8 @@ public class NodeData {
     public static enum TransformMode {
         normal,
         onlyTranslation,
-        noRotationOrReflection,
-        noScale,
-        noScaleOrReflection;
+        noRotation,
+        noScale;
 
         public static final TransformMode[] values = TransformMode.values();
     }
